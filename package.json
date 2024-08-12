@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:api": "json-server --watch db.json",
     "start": "webpack-dev-server --config webpack.dev.js",
-    "build": "webpack serve --config webpack.prod.js"
+    "build": "webpack serve --config webpack.prod.js",
+    "start:dev": "webpack --config webpack.dev.js"
   },
   "author": "",
   "license": "ISC",
